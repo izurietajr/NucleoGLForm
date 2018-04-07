@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class FormConfig(AppConfig):
+class FlisolConfig(AppConfig):
     name = 'flisol'

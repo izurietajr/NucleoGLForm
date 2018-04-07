@@ -1,12 +1,29 @@
 from django import forms
 
 
-# from registry.models import Person
+# from flisol.models import Person
+
+
+#
+# class PersonForm2(forms.ModelForm):
+#
+# 	class Meta:
+# 		model = "Person"
+# 		# fields = [
+# 		# 	'name',
+# 		# 	'occupation',
+# 		# 	'institution',
+# 		# 	'email',
+# 		# 	'phone',
+# 		# 	'subject',
+# 		# 	'requirements',
+# 		# ]
+
 
 
 class PersonForm(forms.Form):
 	# pass
-
+	#
 	# class Meta:
 	# 	model = Person
 	# 	fields = "__all__"
