@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-import form
+from flisol.views import PersonView, ThankYouView
 
 urlpatterns = [
-    #url(r'^list/'),
+    url(r'^registro/', PersonView.as_view(), name='registry'),
+    url(r'^gracias/', ThankYouView.as_view(), name='thank_you'),
 ]
