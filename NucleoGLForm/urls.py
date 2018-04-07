@@ -15,10 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from flisol import urls
-import flisol
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^flisol/', include(flisol.urls, namespace="flisol")),
+    url(r'^flisol/', include("flisol.urls", namespace="flisol")),
 ]
