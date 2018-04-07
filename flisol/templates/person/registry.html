@@ -28,12 +28,10 @@
                 <span class="contact3-form-subtitle">Call 4 speakers</span>
 
                 {% for field in form %}
-                    {#                    {{ field.field.type }}#}
                     {% for error in field.errors %}
                         {{ error }}
                     {% endfor %}
                     <div class="wrap-input3 validate-input" {% if field.errors %}style="color: darkred"{% endif %}>
-                        <!-- data-validate="Name is required"-->
                         <input class="input3" type="text" name="{{ field.name }}"
                                placeholder="{{ field.label }}{% if field.field.required %} *{% endif %}"
                                value="{{ field.value|default_if_none:'' }}"
