@@ -6,4 +6,5 @@ from flisol.models import Person
 
 @admin.register(Person)
 class AuthorAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('name', 'subject', 'email', 'phone')
+    # pass
