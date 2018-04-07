@@ -10,7 +10,7 @@ from flisol.forms import PersonForm
 
 class PersonView(CreateView):
 	form_class = PersonForm
-	template_name = 'person/personform.html'
+	template_name = 'person/index.html' # personform
 	success_url = reverse_lazy('flisol:thank_you')
 
 	# def get_form(self, form_class=None):
