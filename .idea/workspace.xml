@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c97fc17-c275-4b8a-912a-c0f2024690b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flisol/forms.py" afterPath="$PROJECT_DIR$/flisol/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flisol/models.py" afterPath="$PROJECT_DIR$/flisol/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flisol/views.py" afterPath="$PROJECT_DIR$/flisol/views.py" />
-    </list>
+    <list default="true" id="8c97fc17-c275-4b8a-912a-c0f2024690b7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
