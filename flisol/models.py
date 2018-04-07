@@ -14,11 +14,15 @@ class Person(models.Model):
 	)
 	occupation = models.CharField(
 		verbose_name="Ocupación / Profesión",
-		max_length=100
+		max_length=100,
+		blank=True,
+		null=True
 	)
 	institution = models.CharField(
 		verbose_name="Institución",
-		max_length=100
+		max_length=100,
+		blank=True,
+		null=True
 	)
 	email = models.EmailField(
 		verbose_name="Correo Electrónico",

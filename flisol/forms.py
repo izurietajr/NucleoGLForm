@@ -1,27 +1,27 @@
 from django import forms
 
 
-# from flisol.models import Person
+from flisol.models import Person
 
 
-#
-# class PersonForm2(forms.ModelForm):
-#
-# 	class Meta:
-# 		model = "Person"
-# 		# fields = [
-# 		# 	'name',
-# 		# 	'occupation',
-# 		# 	'institution',
-# 		# 	'email',
-# 		# 	'phone',
-# 		# 	'subject',
-# 		# 	'requirements',
-# 		# ]
+class PersonForm(forms.ModelForm):
+
+	class Meta:
+		model = Person
+		exclude = []
+		# fields = [
+		# 	'name',
+		# 	'occupation',
+		# 	'institution',
+		# 	'email',
+		# 	'phone',
+		# 	'subject',
+		# 	'requirements',
+		# ]
 
 
 
-class PersonForm(forms.Form):
+class PersonForm2(forms.Form):
 	# pass
 	#
 	# class Meta:
